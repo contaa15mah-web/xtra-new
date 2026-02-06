@@ -247,21 +247,9 @@ class _MultiStreamGridState extends State<MultiStreamGrid> {
       ),
       child: Stack(
         children: [
-          VideoPlayerWidget(
-            streamUrl: stream.streamUrl,
-            channelName: stream.channelName,
-            audioOnly: stream.audioOnly,
-            isMuted: isMuted,
-            onMuteToggle: () {
-              setState(() {
-                if (isMuted) {
-                  _mutedStreams.remove(index);
-                } else {
-                  _mutedStreams.add(index);
-                }
-              });
-            },
-          ),
+          Container(
+  color: Colors.black,
+),
           
           // Controls overlay
           Positioned(
