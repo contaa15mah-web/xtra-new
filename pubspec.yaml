@@ -11,7 +11,6 @@ dependencies:
     sdk: flutter
   video_player: ^2.8.2
   chewie: ^1.7.0
-  video_player: ^2.8.1
   
   # State Management
   flutter_bloc: ^8.1.3
