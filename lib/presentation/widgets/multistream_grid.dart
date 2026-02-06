@@ -1,7 +1,6 @@
 // lib/presentation/widgets/multistream_grid.dart
 
 import 'package:flutter/material.dart';
-import 'package:xtra_neo/presentation/widgets/video_player_widget.dart';
 import 'package:xtra_neo/core/theme/app_theme.dart';
 
 class MultiStreamGrid extends StatefulWidget {
