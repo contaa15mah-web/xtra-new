@@ -44,14 +44,14 @@ class AppTheme {
         ),
       ),
       
-      // Cards
-      cardTheme: CardTheme(
-        color: cardGrey,
-        elevation: 0,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(12),
-        ),
-      ),
+// Cards
+cardTheme: CardThemeData(
+  color: cardGrey,
+  elevation: 0,
+  shape: RoundedRectangleBorder(
+    borderRadius: BorderRadius.circular(12),
+  ),
+),
       
       // Buttons
       elevatedButtonTheme: ElevatedButtonThemeData(
